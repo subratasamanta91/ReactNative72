@@ -25,7 +25,6 @@ function App(): JSX.Element {
   };
   return (
     <SafeAreaView>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'}/>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View>
           <Text>React Native 72.8</Text>
